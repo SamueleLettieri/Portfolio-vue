@@ -1,8 +1,8 @@
 <template>
   <nav class="d-flex col-12">
     <ul class="col-6 ">
-        <li class="d-inline-block p-3" v-for="(anchor, index) in anchors" :key="index">
-            <a :href="anchor.link">{{anchor.voice}}</a>
+        <li class="d-inline-block" v-for="(anchor, index) in anchors" :key="index">
+            <a class="d-inline-block p-3 pe-4" :href="anchor.link">{{anchor.voice}}</a>
         </li>
     </ul>
     <div class="text-end col-6 pe-3"><img class="" src="../../assets/logo.png" alt=""></div>
@@ -16,11 +16,7 @@ export default {
             anchors:[ 
                 {
                     voice: 'Chi Sono',
-                    link: '#',
-                },
-                {
-                    voice: 'Competenze',
-                    link: '#',
+                    link: '#About-Me',
                 },
                 {
                     voice: 'Competenze',
@@ -28,6 +24,10 @@ export default {
                 },
                 {
                     voice: 'Progetti',
+                    link: '#',
+                },
+                {
+                    voice: 'Contatto',
                     link: '#',
                 },
             ]
@@ -57,7 +57,7 @@ nav{
     }
 
     li:hover{
-        border-bottom: 1px solid white;
+        background-color: rgba(255,255,255,0.34);
     }
 
     img{
