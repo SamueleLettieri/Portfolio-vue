@@ -1,5 +1,5 @@
 <template>
-  <section class="container pt-5">
+  <section id="Welcome" class="container pt-5">
     <div class="row justify-content-center">
         <div class="ms_box">
             <h3>Ciao, mi chiamo</h3>

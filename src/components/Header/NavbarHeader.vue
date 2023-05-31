@@ -5,7 +5,7 @@
             <a class="d-inline-block p-3 pe-4" :href="anchor.link">{{anchor.voice}}</a>
         </li>
     </ul>
-    <div class="text-end col-6 pe-3"><img class="" src="../../assets/logo.png" alt=""></div>
+    <div class="text-end col-6 pe-3"><a href="#Welcome"><img class="" src="../../assets/logo.jpg" alt=""></a> </div>
   </nav>
 </template>
 
@@ -20,7 +20,7 @@ export default {
                 },
                 {
                     voice: 'Competenze',
-                    link: '#',
+                    link: '#Skills',
                 },
                 {
                     voice: 'Progetti',
@@ -39,6 +39,8 @@ export default {
 <style lang="scss" scoped>
 nav{
     background-color: rgb(34, 177, 76);
+    position: fixed;
+    top: 0;
     ul{
         padding: 0;
         margin: 0;

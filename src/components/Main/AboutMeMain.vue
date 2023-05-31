@@ -1,6 +1,6 @@
 <template>
   <section id="About-Me" class="container pt-5 ms_margin">
-    <div class="">
+    <div>
         <div class="row">
         <div class="col-6">
             <h2 class="d-inline-block px-3 rounded-2">Chi Sono</h2>
