@@ -1,15 +1,15 @@
 <template>
   <section id="Welcome" class="container pt-5">
-    <div class="row justify-content-center">
-        <div class="ms_box">
+    <div class="row justify-content-center mt-5">
+        <div class="ms_box pt-5">
             <h3>Ciao, mi chiamo</h3>
             <h1 class="mt-2">Samuele Lettieri.</h1>
             <h3 class="mt-2">Sono un Jr. Full-Scack Web Developer.</h3>
             <p>
-                Dopo il liceo, grazie ha una borsa di studio vinta, 
+                Dopo il liceo, grazie a una borsa di studio vinta, 
                 riesco a far diventare la mia passione il mio lavoro, 
                 iscrivendomi al corso Boolean, 
-                per imparare e diventare un Full Stack Web Developer.
+                per imparare e diventare un Full Stack Web Developer. 
             </p>
         </div>
     </div>    

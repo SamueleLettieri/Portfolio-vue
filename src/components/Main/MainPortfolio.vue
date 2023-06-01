@@ -3,6 +3,7 @@
     <welcome-main />
     <about-me-main />
     <skills-main />
+    <works-main />
   </main>
 </template>
 
@@ -10,9 +11,10 @@
 import AboutMeMain from './AboutMeMain.vue';
 import SkillsMain from './SkillsMain.vue';
 import WelcomeMain from './WelcomeMain.vue';
+import WorksMain from './WorksMain.vue';
 
 export default {
-  components: {WelcomeMain, AboutMeMain, SkillsMain},
+  components: {WelcomeMain, AboutMeMain, SkillsMain, WorksMain},
 
 }
 </script>

@@ -1,12 +1,12 @@
 <template>
-  <nav class="d-flex col-12">
-    <ul class="col-6 ">
+<nav class="d-flex flex-wrap">
+    <ul class="col-lg-6 col-md-12">
         <li class="d-inline-block" v-for="(anchor, index) in anchors" :key="index">
-            <a class="d-inline-block p-3 pe-4" :href="anchor.link">{{anchor.voice}}</a>
+            <a class="d-inline-block p-3 pe-lg-4" :href="anchor.link">{{anchor.voice}}</a>
         </li>
     </ul>
-    <div class="text-end col-6 pe-3"><a href="#Welcome"><img class="" src="../../assets/logo.jpg" alt=""></a> </div>
-  </nav>
+    <div class="text-end col-lg-6 col-md-12 pe-3"><a class="me-3" href="#Welcome"><img class="" src="../../assets/logo.jpg" alt=""></a></div>
+</nav>
 </template>
 
 <script>
@@ -24,12 +24,12 @@ export default {
                 },
                 {
                     voice: 'Progetti',
-                    link: '#',
+                    link: '#Works',
                 },
-                {
+                /* {
                     voice: 'Contatto',
                     link: '#',
-                },
+                }, */
             ]
         }
     }
@@ -41,6 +41,8 @@ nav{
     background-color: rgb(34, 177, 76);
     position: fixed;
     top: 0;
+    width: 100vw;
+    z-index: 1;
     ul{
         padding: 0;
         margin: 0;

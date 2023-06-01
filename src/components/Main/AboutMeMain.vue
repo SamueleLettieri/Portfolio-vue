@@ -1,12 +1,12 @@
 <template>
   <section id="About-Me" class="container pt-5 ms_margin">
     <div>
-        <div class="row">
+        <div class="row mt-5">
         <div class="col-6">
             <h2 class="d-inline-block px-3 rounded-2">Chi Sono</h2>
             <div class="ps-5">
-                <p>Siccome vivevo in una localita turistica, sono entrato nel mondo del lavoro durante il periodo delle superioeri, in cominciando da una piccola pasticceria e cambiando di stagione in stagione un locale, non era una vera e propria aspirazione.</p>
-                <p>Al mio quinto anno di alberghiero la mia scuola mise in palio una borsa di studio per i migliori 4 studenti dell'istituto, e dicisi di sfruttare questa oportunita per realizare la mia grande passione di lavorare nell'informatica, mi ipegnai tanto per vincere la borsa di studio e alla fine ci riusci.</p>
+                <p>Siccome vivevo in una località turistica, sono entrato nel mondo del lavoro durante il periodo delle superiori, cominciando da una piccola pasticceria e cambiando di stagione in stagione un locale, non era una vera e propria aspirazione.</p>
+                <p>Al mio quinto anno di alberghiero la mia scuola mise in palio una borsa di studio per i migliori 4 studenti dell'istituto, e decisi di sfruttare questa opportunità per realizzare la mia grande passione di lavorare nell'informatica, mi impegnai tanto per vincere la borsa di studio e alla fine ci riuscì.</p>
                 <p>Sono sempre stato interessato alla tecnologia e all'informatica.</p>
                 <p>Decisi di iscrivermi all'università Federico II di Napoli al corso di ingegneria informatica, e consolidare le basi pratiche frequentando un corso intensivo per diventare Full Stack Web Developer!</p>
             </div>
