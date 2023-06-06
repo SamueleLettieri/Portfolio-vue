@@ -1,11 +1,18 @@
 <template>
-<nav class="d-flex flex-wrap">
-    <ul class="col-lg-6 col-md-12">
-        <li class="d-inline-block" v-for="(anchor, index) in anchors" :key="index">
-            <a class="d-inline-block p-3 pe-lg-4" :href="anchor.link">{{anchor.voice}}</a>
-        </li>
-    </ul>
-    <div class="text-end col-lg-6 col-md-12 pe-3"><a class="me-3" href="#Welcome"><img class="" src="../../assets/logo.jpg" alt=""></a></div>
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#Welcome"><img src="../../assets/logo.jpg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item" v-for="(anchor, index) in anchors" :key="index">
+                    <a class="nav-link active" aria-current="page" :href="anchor.link">{{anchor.voice}}</a>
+                </li>
+            </ul>
+        </div>
+    </div>    
 </nav>
 </template>
 
@@ -38,17 +45,12 @@ export default {
 
 <style lang="scss" scoped>
 nav{
-    background-color: rgb(34, 177, 76);
+    background-color: rgb(34, 177, 76) !important;
     position: fixed;
     top: 0;
     width: 100vw;
     z-index: 1;
-    ul{
-        padding: 0;
-        margin: 0;
-    }
-    li{
-        list-style: none;
+
 
         a{
             text-decoration: none;
@@ -58,7 +60,7 @@ nav{
         a:hover{
             color: white;
         }
-    }
+    
 
     li:hover{
         background-color: rgba(255,255,255,0.34);

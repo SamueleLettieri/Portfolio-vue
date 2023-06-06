@@ -2,7 +2,7 @@
   <section id="About-Me" class="container pt-5 ms_margin">
     <div>
         <div class="row mt-5">
-        <div class="col-6">
+        <div class="col-lg-6 col-12">
             <h2 class="d-inline-block px-3 rounded-2">Chi Sono</h2>
             <div class="ps-5">
                 <p>Siccome vivevo in una località turistica, sono entrato nel mondo del lavoro durante il periodo delle superiori, cominciando da una piccola pasticceria e cambiando di stagione in stagione un locale, non era una vera e propria aspirazione.</p>
@@ -11,7 +11,7 @@
                 <p>Decisi di iscrivermi all'università Federico II di Napoli al corso di ingegneria informatica, e consolidare le basi pratiche frequentando un corso intensivo per diventare Full Stack Web Developer!</p>
             </div>
         </div>
-        <div class="col-6 text-center"><img src="../../assets/samImg.jpg" alt=""></div>
+        <div class="col-lg-6 text-center col-12"><img src="../../assets/samImg.jpg" alt=""></div>
         </div>
     </div>    
   </section>

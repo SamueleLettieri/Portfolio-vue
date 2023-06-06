@@ -4,19 +4,19 @@
         <h2 class="d-inline-block px-3 rounded-2 mb-5 mt-5">Competenze</h2>
         <div class="row justify-content-center">
             <div>
-                <ul class="text-center mb-5">
-                    <li class="cursor ms_m rounded-2 d-inline-block px-3 pt-1 pb-1 ms_bored" v-for="(skill, i) in skills" :key="i" :class="{'ms_active': activeIndex === i}" @click="nextindex(i)">{{skill.title}}</li>
+                <ul class="text-center mb-5 row justify-content-around">
+                    <li class="cursor  rounded-2 d-inline-block px-3 pt-1 pb-1 ms_bored col-md-2 col-5" v-for="(skill, i) in skills" :key="i" :class="{'ms_active': activeIndex === i}" @click="nextindex(i)">{{skill.title}}</li>
                 </ul>
             </div>
             <div class="row ms_h">
-                <div class="col-5">
-                    <ul class="row  text-center">
-                        <li class=" mt-5 pt-2" :class="{'text-end': index === 0 || index === 1}" v-for="(miniTitle, index) in skills[activeIndex].miniTitles" :key="index"><span class="cursor ms_b d-inline-block px-3 pt-1 pb-1 mx-5  rounded-2" :class="{'ms_bor': newIndex === index}" @click="newI(index)">{{ miniTitle.titolino }}</span></li>
+                <div class="col-md-5 col-12">
+                    <ul class="row  text-center align-content-around h-50">
+                        <li class=" pt-2 me-3 col-md-12 col-5 " :class="{'text-end': index === 0 || index === 1}" v-for="(miniTitle, index) in skills[activeIndex].miniTitles" :key="index"><span class="cursor ms_b d-inline-block px-3 pt-1 pb-1 mx-5  rounded-2" :class="{'ms_bor': newIndex === index}" @click="newI(index)">{{ miniTitle.titolino }}</span></li>
                     </ul>
                 </div>
-                <div class="col-7">
-                    <ul>
-                        <li class="w-50 mt-1" v-for="(competenza, index) in skills[activeIndex].miniTitles[newIndex].competenze" :key="index"><span class="mx-3"><i :class="competenza.icona"></i></span> {{ competenza.tecnologie }} <hr></li>
+                <div class="col-md-7 col-12">
+                    <ul >
+                        <li class="col-md-7 col-12 mt-1 ms_ul pt-2 pb-2 " v-for="(competenza, index) in skills[activeIndex].miniTitles[newIndex].competenze" :key="index"><span class="mx-3"><i :class="competenza.icona"></i></span> {{ competenza.tecnologie }} </li>
                     </ul>
                 </div>
             </div>    
@@ -198,8 +198,8 @@ export default {
         border-bottom: 3px solid green;
     }
 
-    hr{
-        border: 1px solid green;
+    .ms_ul{
+        border-bottom: 1px solid green;
     }
 
     .ms_h{
@@ -207,6 +207,10 @@ export default {
     }
     .ms_m{
         margin-right: 150px;
+    }
+
+    ul{
+        margin: 0;
     }
 }
 </style>

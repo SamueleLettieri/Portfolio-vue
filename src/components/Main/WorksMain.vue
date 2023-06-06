@@ -1,11 +1,13 @@
 <template>
     <section id="Works" class="container pt-5 ms_margin">
         <h2 class="d-inline-block px-3 rounded-2 mb-5 mt-5">Progetti</h2>
-        <div class="row justify-content-between">
-            <div  v-for="(card, index) in cards" :key="index"  @click="nextIndex(index), trueFalse()" class="card col-4 mx-5 ms_p-0 mb-5" style="width: 18rem; cursor: pointer;">
-                <img class="ms_img card-img-top" :src="card.img" alt="Card image cap">
-                <div class="card-body">
-                    <h3 class="card-text">{{ card.title }}</h3>
+        <div class="row justify-content-between ms_center">
+            <div v-for="(card, index) in cards" :key="index" class="col-7 col-sm-5 col-lg-3 ms_p-0 mb-5 mx-3">
+                <div @click="nextIndex(index), trueFalse()"  class="card w-100" style="cursor: pointer;">
+                    <img class="ms_img card-img-top" :src="card.img" alt="Card image cap">
+                    <div class="card-body">
+                        <h3 class="card-text">{{ card.title }}</h3>
+                    </div>
                 </div>
             </div>
         </div>    
@@ -182,4 +184,10 @@ export default {
     }
 }
 
+
+@media screen and (max-width: 600px) {
+    .ms_center{
+        justify-content: center !important;
+    }
+}
 </style>
