@@ -5,7 +5,7 @@
             <h3>Ciao, mi chiamo</h3>
             <h1 class="mt-2">Samuele Lettieri.</h1>
             <h3 class="mt-2">Sono un Jr. Full-Scack Web Developer.</h3>
-            <p>
+            <p class="fs-5">
                 Dopo il liceo, grazie a una borsa di studio vinta, 
                 riesco a far diventare la mia passione il mio lavoro, 
                 iscrivendomi al corso Boolean, 

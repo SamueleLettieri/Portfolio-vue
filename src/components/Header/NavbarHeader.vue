@@ -8,7 +8,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item" v-for="(anchor, index) in anchors" :key="index">
-                    <a class="nav-link active" aria-current="page" :href="anchor.link">{{anchor.voice}}</a>
+                    <a class="nav-link active fs-5 ms_a mx-2" aria-current="page" :href="anchor.link">{{anchor.voice}}</a>
                 </li>
             </ul>
         </div>
@@ -52,19 +52,14 @@ nav{
     z-index: 1;
 
 
-        a{
-            text-decoration: none;
-            color: black;
-        }
-
-        a:hover{
-            color: white;
+        .ms_a{
+            
         }
     
 
-    li:hover{
-        background-color: rgba(255,255,255,0.34);
-    }
+        .ms_a:hover{
+            color: white !important
+        }
 
     img{
         height: 55px;
