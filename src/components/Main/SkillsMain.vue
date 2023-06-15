@@ -1,5 +1,5 @@
 <template>
-  <section id="Skills" class="ms_margin fs-5 pt-5">
+  <section id="Skills" class="ms_margin fs-5 pt-3">
     <div class="container mt-5">
         <h2 class="d-inline-block px-3 rounded-2 mb-5 mt-5">Competenze</h2>
         <div class="row justify-content-center">

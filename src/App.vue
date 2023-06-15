@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <HeaderPortafolio />
-    <main-portfolio />
-    <footer-portafolio />
+    <main-portfolio class="pb-5" />
+    <footer-portafolio class="mt-5" />
   </div>
 </template>
 
